@@ -1,0 +1,58 @@
+.wrapperRelatedVideo {
+  width: 36%;
+  height: 526px;
+}
+
+.relatedItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  background: #2c2c2c;
+  border-radius: 10px;
+}
+
+.imgRelatedMovie {
+  width: 168px;
+  height: 94px;
+}
+
+.wrapperImgRelatedMovie {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.titleRelatedMovie {
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 15px;
+  width: 62%;
+}
+
+.playRelatedIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(147 147 147);
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
+
+.relatedItem:hover {
+  cursor: pointer;
+}
+
+.relatedItem:hover .imgRelatedMovie {
+  transform: scale(1.1);
+  transition: transform 0.5s linear;
+}
+
+.relatedItem:hover .playRelatedIcon {
+  color: rgb(179 178 178);
+}
+
+.relatedItem:hover .titleRelatedMovie {
+  opacity: 0.8;
+}

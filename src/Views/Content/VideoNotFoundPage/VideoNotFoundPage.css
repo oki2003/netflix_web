@@ -1,0 +1,13 @@
+.wrapperVideoNotFound {
+  width: 883px;
+  height: 527px;
+  background-color: #111;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapperVideoNotFound h1 {
+  color: white;
+}

@@ -1,0 +1,44 @@
+.logo {
+  height: 100%;
+  /* animation: rotateLogo 4s linear infinite; */
+}
+
+@keyframes rotateLogo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.header {
+  background-color: #111111;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 58px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+  border: 1px solid #2c2c2c;
+  border-width: 0px 0px 1px 0px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#search-header {
+  width: 610px;
+  margin: 0;
+  position: relative;
+}
+
+.wrapperRightHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85px;
+  height: 100%;
+}

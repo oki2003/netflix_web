@@ -1,0 +1,50 @@
+.wrapperProfile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  height: 80vh;
+  background-color: #272727;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+}
+
+.wrapperProfile div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  transform: translateX(30%);
+}
+
+.wrapperProfile img {
+  flex: 1 1;
+  width: 5px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+  display: flex;
+}
+
+.editBtn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.editBtn:hover {
+  opacity: 0.7;
+}

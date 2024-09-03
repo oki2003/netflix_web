@@ -1,0 +1,70 @@
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.avatar:hover {
+  cursor: pointer;
+}
+
+.wrapperAvatar {
+  position: relative;
+}
+
+.wrapperAvatar:hover .wrapperContentAvatar {
+  display: flex;
+}
+
+.wrapperContentAvatar {
+  display: none;
+  position: absolute;
+  width: 169px;
+  height: 87px;
+  background-color: #272727;
+  border-radius: 5px;
+  right: -6px;
+  top: 45px;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.wrapperContentAvatar::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 57px;
+  height: 20px;
+  top: -18px;
+  right: 0;
+  background-color: transparent;
+}
+
+.wrapperContentAvatar::after {
+  display: block;
+  position: absolute;
+  content: "";
+  border-style: solid;
+  border-width: 10px 10px 10px 10px;
+  border-color: transparent transparent #272727 transparent;
+  top: -19px;
+  right: 11px;
+}
+
+.contentAvatar {
+  color: white;
+  text-decoration: none;
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  background-color: #272727;
+  border: none;
+}
+
+.contentAvatar:hover {
+  background-color: #323232;
+}
