@@ -1,3 +1,0 @@
-.fade.modal.show:has(.loadingSpinner) {
-  opacity: 0.7;
-}

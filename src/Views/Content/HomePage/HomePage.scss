@@ -4,23 +4,28 @@
   justify-content: space-evenly;
   background-color: #111111;
 }
-
 .movieItem {
   width: 336px;
   height: 241px;
   margin-bottom: 44px;
+  &:hover {
+    cursor: pointer;
+  }
 }
-
-.movieItem:hover {
-  cursor: pointer;
-}
-
 .wrapperImgMovie {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+  &:hover {
+    .imgMovie {
+      transform: scale(1.1);
+      transition: transform 0.5s linear;
+    }
+    .playIcon {
+      color: rgb(179 178 178);
+    }
+  }
 }
-
 .playIcon {
   position: absolute;
   top: 50%;
@@ -29,20 +34,9 @@
   font-size: 60px;
   transform: translate(-50%, -50%);
 }
-
-.wrapperImgMovie:hover .imgMovie {
-  transform: scale(1.1);
-  transition: transform 0.5s linear;
-}
-
-.wrapperImgMovie:hover .playIcon {
-  color: rgb(179 178 178);
-}
-
 .imgMovie {
   width: 100%;
 }
-
 .titleMovie {
   text-align: center;
   margin-top: 8px;

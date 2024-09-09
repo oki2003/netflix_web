@@ -10,16 +10,14 @@
   border: 1px solid #d2d1d1;
   border-radius: 10px;
 }
-
 .IdeaSearchItem {
   width: 100%;
   height: 40px;
   display: flex;
   padding-left: 12px;
   align-items: center;
-}
-
-.IdeaSearchItem:hover {
-  cursor: pointer;
-  background-color: #f6f4f4;
+  &:hover {
+    cursor: pointer;
+    background-color: #f6f4f4;
+  }
 }

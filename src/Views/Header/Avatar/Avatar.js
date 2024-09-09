@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import "./Avatar.css";
+import "./Avatar.scss";
 import { getAuth, signOut } from "firebase/auth";
 
 function Avatar(props) {

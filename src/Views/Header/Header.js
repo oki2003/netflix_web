@@ -1,5 +1,5 @@
 import { ReactComponent as Logo } from "../../assest/logo.svg";
-import "./Header.css";
+import "./Header.scss";
 import IdeaSearch from "./IdeaSearch/IdeaSearch";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";

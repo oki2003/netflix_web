@@ -1,0 +1,51 @@
+$color_1: white;
+$color_2: grey;
+$font-family_1: arial;
+$background-color_1: #272727;
+$background-color_2: #000;
+
+.wrapperProfile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: $font-family_1;
+  display: flex;
+  height: 80vh;
+  background-color: $background-color_1;
+  border-radius: 10px;
+  overflow: hidden;
+  color: $color_1;
+  div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    transform: translateX(30%);
+  }
+  img {
+    flex: 1 1;
+    width: 5px;
+  }
+}
+.title {
+  color: $color_2;
+  font-size: 18px;
+  display: flex;
+}
+.editBtn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: $color_1;
+  background-color: $background-color_2;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+  &:hover {
+    opacity: 0.7;
+  }
+}

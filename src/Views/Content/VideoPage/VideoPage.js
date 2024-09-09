@@ -1,4 +1,4 @@
-import "./VideoPage.css";
+import "./VideoPage.scss";
 import RelatedVideoPage from "../RelatedVideoPage/RelatedVideoPage";
 import CommentPage from "../CommentPage/CommentPage";
 

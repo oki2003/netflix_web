@@ -1,4 +1,4 @@
-import "./CommentPage.css";
+import "./CommentPage.scss";
 import DefaultAvatar from "./DefaultAvatar.png";
 
 function CommentPage(props) {

@@ -1,5 +1,4 @@
-import Header from "../../Header/Header";
-import "./HomePage.css";
+import "./HomePage.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "./IdeaSearch.css";
+import "./IdeaSearch.scss";
 
 function IdeaSearch(props) {
   const navigate = useNavigate();

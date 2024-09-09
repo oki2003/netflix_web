@@ -1,5 +1,4 @@
-import Header from "../../Header/Header";
-import "./VideoNotFoundPage.css";
+import "./VideoNotFoundPage.scss";
 function VideoNotFoundPage() {
   return (
     <>

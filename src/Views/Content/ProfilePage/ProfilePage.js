@@ -1,4 +1,4 @@
-import "./ProfilePage.css";
+import "./ProfilePage.scss";
 import EditProfile from "./EditProfile/EditProfile";
 function ProfilePage(props) {
   const { auth, setUser, user } = props;
